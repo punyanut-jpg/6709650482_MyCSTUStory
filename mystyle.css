@@ -64,7 +64,7 @@ main{
 
 main ul{
     list-style-type: none;
-    text-indent: 230px;
+    text-indent: 200px;
 }
 
 h1 {
@@ -79,11 +79,12 @@ h1 {
 }
 
 p {
-    margin: 10px 200px ;
+    margin: 10px 150px;
+    text-indent: 60px;
 }
 
-p b{
-    font-size: 19px;
+p strong{
+    font-size: 20px;
 }
 
 #punyanut {
@@ -136,6 +137,7 @@ figure p b{
     width: 600px;
     height: auto;
     text-indent: 0px;
+    border-radius: 10px;
 }
 
 nav{

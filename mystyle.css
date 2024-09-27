@@ -56,9 +56,15 @@ aside li a:hover{
 
 main{
     font-family: "Nunito", sans-serif;
+    color:  rgb(109, 96, 57);
     width: 85%;
     float: left;
-    text-align: center;
+    line-height: 2.5;
+}
+
+main ul{
+    list-style-type: none;
+    text-indent: 230px;
 }
 
 h1 {
@@ -66,6 +72,18 @@ h1 {
     color: rgb(189, 107, 24);
     text-align: center;
     text-shadow: 2px 2px 5px #d7980f;
+    font-size: 30px;
+    padding: 5px;
+    margin: 2px;
+    text-indent: 0px;
+}
+
+p {
+    margin: 10px 200px ;
+}
+
+p b{
+    font-size: 19px;
 }
 
 #punyanut {
@@ -74,6 +92,18 @@ h1 {
     float: left;
     margin-right: 50px;   
     border-radius: 20px;
+}
+
+#friend {
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#club{
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
 }
 
 figure{
@@ -89,13 +119,23 @@ figure{
     font-size: 15px;
     overflow: hidden;
     line-height: 2.5;
+    text-indent: 0px;
+}
+
+figure p{
+    text-indent: 0px;
+    margin: 0px;
+}
+
+figure p b{
+    font-size: 15px;
 }
 
 
 #video{
     width: 600px;
     height: auto;
-    
+    text-indent: 0px;
 }
 
 nav{
@@ -103,11 +143,12 @@ nav{
     color: rgb(108, 75, 63);
     margin: 30px;
     text-align:start;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 nav ul{
     list-style-type: none;
+    text-indent: 40px;
 }
 
 
@@ -119,6 +160,7 @@ legend {
     background-color: rgb(98, 78, 59);
     color: white;
     padding: 2px 10px;
+    text-indent: 0px;
 }
 
 footer{

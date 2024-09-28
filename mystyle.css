@@ -29,13 +29,19 @@ header{
 aside {
     background-color: rgb(250, 196, 71); 
     float: left;
-    height: 100vh;
     width: 15%;
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+    position:sticky;
+    z-index: 1;
+    top:85px;
+    overflow: auto;
 }
 
 aside ul {
     list-style-type: none;
-    
+    flex: 1;
 }
 
 aside li a{
@@ -46,6 +52,9 @@ aside li a{
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style-type: none;
+}
+aside a{
+    display: block;
 }
 
 aside li a:hover{
@@ -214,4 +223,5 @@ footer{
     padding:  10px;
     width: 100%;
     float: left;
+    position: relative;
 }

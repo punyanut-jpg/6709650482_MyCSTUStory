@@ -113,26 +113,26 @@ p strong{
 }
 
 #friend {
-    width: 390px;
+    width: 40%;
     height: auto;
     border-radius: 10px;
 }
 
 #club{
-    width: 390px;
+    width: 40%;
     height: auto;
     border-radius: 10px;
 }
 
 #dev{
-    width: 450px;
+    width: 75%;
     height: auto;
     border-radius: 10px;
     margin: 20px;
 }
 
 #uxui{
-    width: 410px;
+    width: 75%;
     height: auto;
     border-radius: 10px;
     margin: 20px;
@@ -211,6 +211,10 @@ div{
     border-style: dashed;
     border-width: 1.5px;
     border-color: #e79a1e;
+}
+
+div p{
+    margin: 30px;
 }
 
 section{
